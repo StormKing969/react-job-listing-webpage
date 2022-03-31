@@ -1,0 +1,22 @@
+.job_container {
+    scroll-behavior: smooth;
+}
+
+.job_card {
+    padding: 1rem;
+    margin: 4rem 1rem;
+    position: relative;
+    border-radius: 2rem;
+    border: 1px solid black;
+
+    img {
+        position: absolute;
+        top: -3rem;
+    }
+}
+
+.job_details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
